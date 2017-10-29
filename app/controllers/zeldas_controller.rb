@@ -1,0 +1,2 @@
+class ZeldasController < ApplicationController
+end
