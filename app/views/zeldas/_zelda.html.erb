@@ -1,11 +1,9 @@
     <ul>
-      <li>
-        <% if display_zelda_link %>
-          <%= link_to zelda.character, zelda_path(zelda) %>
-        <% else %>
-          <strong>Character:</strong> <%= song.character %><br />
-          <strong>Location:</strong> <%= song.location %>
-        <% end %>
-      </li>
+      <% if display_zelda_link %>
+        <li><%= link_to zelda.character, zelda_path(zelda) %></li>
+      <% else %>
+        <li><strong>Character:</strong> <%= zelda.character %></li>
+        <li><strong>Location:</strong> <%= zelda.location %></li>
+      <% end %>
     </ul>
     
