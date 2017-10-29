@@ -8,5 +8,5 @@
 
 100.times do
   Zelda.create(character: Faker::Zelda.character,
-               location:  Faker::Zelda.locatin) # rails db:migrate / rails db:seed
+               location:  Faker::Zelda.location) # rails db:migrate / rails db:seed
 end
